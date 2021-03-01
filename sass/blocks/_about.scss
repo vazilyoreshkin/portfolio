@@ -15,6 +15,7 @@
     }
     &-text {
         margin-top: 35px;
+        @include before_circle;
     }
     #first {
         grid-row: 1/5;
@@ -29,7 +30,7 @@
         position: relative;
         padding-left: 10px;
         z-index: 2;
-        @include after_circle;
+        @include before_circle;
         &-star{
             margin-right: 5px;
         }
