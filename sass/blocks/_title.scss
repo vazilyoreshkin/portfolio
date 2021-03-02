@@ -22,4 +22,10 @@
     &_fz48{
         font-size: 48px;
     }
+    &_right{
+        position: relative;
+        padding-left: 70px;
+        z-index: 2;
+        @include after_circle;
+    }
 }

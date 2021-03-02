@@ -14,26 +14,29 @@
         margin-top: 10px;
     }
     &-text {
-        margin-top: 35px;
-        @include before_circle;
+        margin-top: 20px;
+
     }
     #first {
         grid-row: 1/5;
     }
     #second {
         grid-column: 2/4;
+      /*   display: flex;
+        flex-direction: column;
+        justify-content: space-around; */
     }
     #third{
         grid-column: 2/4;
     }
-    .img-svg{
-        position: relative;
-        padding-left: 10px;
-        z-index: 2;
-        @include before_circle;
-        &-star{
-            margin-right: 5px;
-        }
+    &-svg{
+        position: absolute;
+        z-index: 3;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    &-subtitle{
+        padding-left: 70px;
     }
     
 }

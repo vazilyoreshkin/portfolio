@@ -12,9 +12,7 @@
         padding-left: 10px;
         z-index: 2;
         @include before_circle;
-        &_left{
-            @include after_circle;
-        }
+     
         
     }
     &__btns{
