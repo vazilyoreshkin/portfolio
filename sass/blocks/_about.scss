@@ -4,14 +4,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-  /*   &-info{
-        display: grid;
-        grid-column: 1/2; */
-
-    }
-    &-elem__left{
-       /*  padding-right: 65px; */
-    }
     &-divider{
         width: 60px;
         height: 0px;
@@ -24,19 +16,14 @@
     }
     #first {
         margin: 0 auto;
-        /* grid-row: 1/5; */
+
     } 
     #second {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
 
-       /*  grid-column: 2/4; */
-
-
-      /*   display: flex;
-        flex-direction: column;
-        justify-content: space-around; */
+  
     }
     #third{
         grid-column: 1/2;
