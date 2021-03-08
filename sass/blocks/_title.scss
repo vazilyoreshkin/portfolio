@@ -15,17 +15,21 @@
         font-size: 16px;
         line-height: 24px;
     }    
-    &_36{
+    &_fz20{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    &_fz36{
         font-size: 36px;
-        line-height: 60px;
     }
     &_fz48{
         font-size: 48px;
     }
-    &_right{
-        position: relative;
-        padding-left: 70px;
-        z-index: 2;
-        @include after_circle;
+    &_fzskils{
+        padding: 0px 0 15px 30px;
     }
+    &_prct{
+        text-align: right;
+    }
+
 }
