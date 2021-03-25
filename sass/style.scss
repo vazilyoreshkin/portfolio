@@ -32,6 +32,9 @@
             background-color: $first-color;
       
         }
+    }
+    &__contacts{
+        margin: 0;
     } 
 }
 
@@ -46,3 +49,5 @@
 @import 'blocks/skils';
 @import 'blocks/portfolio';
 @import 'blocks/price';
+@import 'blocks/contacts';
+@import 'blocks/media';
